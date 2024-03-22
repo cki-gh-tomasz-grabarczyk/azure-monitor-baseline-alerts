@@ -259,6 +259,9 @@
           },
           "alertResourceGroupLocation": {
             "value": "[[parameters('ALZMonitorResourceGroupLocation')]"
+          },
+          "ALZMonitorActionGroupEmail": {
+            "value": "[[parameters('ALZMonitorActionGroupEmail')]"
           }
         }
       },
