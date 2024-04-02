@@ -4179,6 +4179,9 @@
           "severity": {
             "value": "[[parameters('VNETDDOSAttackAlertSeverity')]"
           },
+          "alertResourceGroupName": {
+            "value": "[[parameters('ALZMonitorResourceGroupName')]"
+          },
           "windowSize": {
             "value": "[[parameters('VNETDDOSAttackWindowSize')]"
           },
